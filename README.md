@@ -17,6 +17,7 @@ sudo nano /etc/rc.local
 Add "/home/pi/scripts/Hotkeys.sh &" (replace the location/name of script) before the final "exit 0" line so your rc.local file looks like this:
 
 /home/pi/scripts/Hotkeys.sh &
+
 exit 0
 
 
