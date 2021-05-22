@@ -14,6 +14,7 @@ skip_intro.sh - skips video splashscreen when button(s) are pressed
 Just add the scripts to your rc.local files like so:
 
 sudo nano /etc/rc.local
+<br>
 Add "/home/pi/scripts/Hotkeys.sh &" (replace the location/name of script) before the final "exit 0" line so your rc.local file looks like this:
 
 /home/pi/scripts/Hotkeys.sh &\
